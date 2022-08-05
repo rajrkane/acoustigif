@@ -13,4 +13,4 @@ I record DJ mixes and like to overlay some animation on top of the recordings. T
 
 ## Usage
 
-Run `bash acoustigif.sh input.gif input.mp3` and the video will be saved as `output.mp4` in the current directory.
+Run `bash acoustigif.sh <path_to_input.gif> <path_to_input.mp3>` and the video will be saved as `output.mp4` in the current directory.

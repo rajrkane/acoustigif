@@ -2,7 +2,7 @@
 
 if [ ! $# == 2 ] || [ ! -f $1 ] || [ ! -f $2 ] || [ ! $1 =~ \.gif$  ] || [ ! $2 =~ \.txt$  ]; then
     echo ""
-    echo "Usage: $0 input.gif input.mp3"
+    echo "Usage: $0 <input.gif> <input.mp3>"
     exit -1
 fi
 
